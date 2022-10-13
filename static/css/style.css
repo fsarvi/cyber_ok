@@ -31,6 +31,13 @@ nav{
     background-color: var(--color-principal);
     color: var(--color-terciario);
     font-size: 1.2em;
+    
+}
+nav > ul > li > a > img{
+    max-width: 7em;
+    max-height: 3em;
+    margin: auto;
+    padding-bottom: 0.5em;
 }
 footer{
     margin: auto;
