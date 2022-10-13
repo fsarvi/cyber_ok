@@ -1,0 +1,41 @@
+:root{
+    --color-principal: #000;
+    --color-secundario: #08c;
+    --color-terciario: #ffffff;
+
+}
+
+.content{
+    padding: 2em;
+    color: var(--color-principal);
+}
+
+.turnos, .boletas, .descargas{
+    margin: auto;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    grid-gap: 1em;
+    grid-auto-flow: row;
+}
+.turno{
+    margin: auto; 
+    width: 10em;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+}
+
+.turno > a > img{
+    width: 10em;
+    height: 4.8em;
+}
+
+.turno > a > p{
+    font-size: 0.9em;
+    padding: 0.5em;
+    background-color: var(--color-secundario);
+    color: var(--color-terciario);
+    text-align: center;
+    border-radius: 5px;
+}

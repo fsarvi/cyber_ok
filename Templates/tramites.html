@@ -1,0 +1,103 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href=" {% static 'css/tramites.css' %} ">
+{% endblock styles %}
+
+{% block content %}
+
+    <div class="content">
+        
+        <h1>Turnos: </h1>
+        <hr>
+        <div class="turnos">
+
+            <div class="turno">
+                <a href="https://www.bancoprovincia.com.ar/turneroweb/" target="_blank"><img src="../static/img/banco_provincia.svg" alt="BANCO PROVINCIA">
+                    <p>BANCO PROVINCIA</p>
+                </a> 
+            </div>
+            <div class="turno">
+                <a href="https://servicioswww.anses.gob.ar/TurnosInternet/Burbujas/Prestaciones" target="_blank"><img src="../static/img/anses.png" alt="ANSES">
+                    <p>ANSES</p>
+                </a>
+            </div>
+            <div class="turno">
+                <a href="http://www.gob.gba.gov.ar/portal/turnos/" target="_blank"><img src="../static/img/gba_registro.svg" alt="REGISTRO DE LAS PERSONAS">
+                    <p>REGISTRO PERSONAS</p>
+                </a>
+            </div>
+            <div class="turno">
+                <a href="https://www.metrogas.com.ar/Paginas/Turnos-Online-Oficinas-Comerciales.aspx" target="_blank"><img src="../static/img/metrogas.gif" alt="METROGAS">
+                    <p>METROGAS</p>
+                </a>
+            </div>
+            <div class="turno">
+                <a href="https://servicequendalat.enel.com/citaprevia/?pais=ar" target="_blank"><img src="../static/img/edesur.png" alt="EDESUR">
+                    <p>EDESUR</p>
+                </a>
+            </div>
+            <div class="turno">
+                <a href="https://vtvpba.minfra.gba.gob.ar/SolicitudTurno" target="_blank"><img src="../static/img/VTV.jpeg" alt="VTV">
+                    <p>VTV</p>
+                </a>
+            </div>
+            <div class="turno">
+                <a href="https://www.dnrec.jus.gov.ar/InicioTramite/default.aspx" target="_blank"><img src="../static/img/penales.webp" alt="ANTECEDENTES PENALES">
+                    <p> ANTEC. PENALES</p>
+                </a>
+            </div>
+
+        </div>
+        
+        <h1>Boletas: </h1>
+        <hr>
+
+        <div class="boletas">
+            
+            <div class="turno">
+                <a href="https://www.metrogas.com.ar/Paginas/descarga-tu-factura.aspx" target="_blank"><img src="../static/img/metrogas.gif" alt="METROGAS">
+                    <p>METROGAS</p>
+                </a>
+            </div>
+            <div class="turno">
+                <a href="https://ov.edesur.com.ar/pagar-sin-usuario" target="_blank"><img src="../static/img/edesur.png" alt="EDESUR">
+                    <p>EDESUR</p>
+                </a>
+            </div>
+            <div class="turno">
+                <a href="https://pagosenlinea.pagofacil.com.ar/" target="_blank"><img src="../static/img/pago_facil.jpg" alt="VTV">
+                    <p>PAGO FÁCIL</p>
+                </a>
+            </div>
+               
+        </div>
+
+
+        <h1>Descargas: </h1>
+        <hr>
+
+        <div class="descargas">
+
+            <div class="turno">
+                <a href="https://www2.jus.gov.ar/dnrpa-site/#!/consultarTramite" target="_blank"><img src="../static/img/dnrpa.png" alt="REGISTRO DE LAS PERSONAS">
+                    <p>DNRPA</p>
+                </a>
+            </div>
+
+            <div class="turno">
+                <a href="https://boleto.gba.gob.ar/modulos/boleto/publico.php" target="_blank"><img src="../static/img/gba_registro.svg" alt="METROGAS">
+                    <p>BOLETO ESTUDIANTIL</p>
+                </a>
+            </div>
+            
+            <div class="turno">
+                <a href="https://www.dnrec.jus.gov.ar/ConsultaCAP/Consulta.aspx" target="_blank"><img src="../static/img/penales.webp" alt="ANTECEDENTES PENALES">
+                    <p> ANTEC. PENALES</p>
+                </a>
+            </div>
+    
+        </div>
+    
+    </div>
+{% endblock content %}
